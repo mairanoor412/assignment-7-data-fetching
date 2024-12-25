@@ -15,20 +15,20 @@ const Home = () => {
         <div className="grid lg:grid-cols-2 gap-7 md:gap-10 lg:gap-1">
           {/* Client side */}
           <div className="w-[320px] sm:w-[400px] md:w-[500px] h-auto m-auto py-5 px-5 rounded-[10px] bg-white shadow-xl">
-            <h1 className="text-[20px] md:text-[25px] lg:text-[30px] font-600 text-black"> Client Side Rendering </h1>
+            <h1 className="text-[20px] md:text-[25px] lg:text-[30px] font-700 text-black"> Client Side Rendering </h1>
             <p className="text-[12px] md:text-[14px] lg:text-[16px] lg:h-[150px] text-zinc-700 py-3 "> Client-Side Rendering is a technique where the browser renders the web page dynamically using JavaScript. The server sends a basic HTML structure, and the client-side JavaScript code takes care of rendering the content.  </p>
             <Link href="/client-side" target="_blank">
-              <button className="px-10 py-3 text-[12px] lg:text-[14px] bg-yellow-500 hover:bg-yellow-600 rounded-[10px] text-white"> Client Side Rendering </button>
+              <button className="px-10 py-2 text-[12px] lg:text-[14px] bg-yellow-500 hover:bg-yellow-600 rounded-[10px] text-white"> Client Side Rendering </button>
             </Link>
           </div>
             
 
             {/* server side  */}
           <div className="w-[330px] sm:w-[400px] md:w-[500px] h-auto m-auto py-5 px-5 rounded-[10px] bg-white shadow-xl">
-            <h1 className="text-[20px] md:text-[25px] lg:text-[30px] font-600 text-black"> Server Side Rendering </h1>
+            <h1 className="text-[20px] md:text-[25px] lg:text-[30px] font-700 text-black"> Server Side Rendering </h1>
             <p className="text-[12px]  md:text-[14px] lg:text-[16px] lg:h-[150px] text-zinc-700 py-3 "> Server-Side Rendering is a technique where the server generates the HTML content on each request, and the browser receives a fully rendered HTML page  </p>
             <Link href="/server-side" target="_blank">
-              <button className="px-10 py-3 text-[12px] lg:text-[14px] bg-yellow-500 hover:bg-yellow-600 rounded-[10px] text-white"> Server Side Rendering </button>
+              <button className="px-10 py-2 text-[12px] lg:text-[14px] bg-yellow-500 hover:bg-yellow-600 rounded-[10px] text-white"> Server Side Rendering </button>
             </Link>
           </div>
 
