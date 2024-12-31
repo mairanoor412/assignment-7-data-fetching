@@ -10,11 +10,11 @@ const Home = () => {
 
       {/* heading */}
       <div>
-        <h1 className="mt-20 text-[25px] font-[600] md:text-[30px] lg:text-[40px] text-black text-center py-5 lg:py-16"> Data Fetching: CSR & SSR </h1>
+        <h1 className="mt-6 text-[25px] font-[600] md:text-[30px] lg:text-[40px] text-black text-center py-5 lg:py-16"> Data Fetching: CSR & SSR </h1>
 
         <div className="grid lg:grid-cols-2 gap-7 md:gap-10 lg:gap-1">
           {/* Client side */}
-          <div className="w-[320px] sm:w-[400px] md:w-[500px] h-auto m-auto py-5 px-5 rounded-[10px] bg-white shadow-xl">
+          <div className="h-[270px] pt-8 w-[320px] sm:w-[400px] md:w-[500px]  m-auto flex flex-col gap-3 py-5 px-5 rounded-[10px] bg-white shadow-xl">
             <h1 className="text-[20px] md:text-[25px] lg:text-[30px] font-700 text-black"> Client Side Rendering </h1>
             <p className="text-[12px] md:text-[14px] lg:text-[16px] lg:h-[150px] text-zinc-700 py-3 "> Client-Side Rendering is a technique where the browser renders the web page dynamically using JavaScript. The server sends a basic HTML structure, and the client-side JavaScript code takes care of rendering the content.  </p>
             <Link href="/client-side" target="_blank">
@@ -24,7 +24,7 @@ const Home = () => {
             
 
             {/* server side  */}
-          <div className="w-[330px] sm:w-[400px] md:w-[500px] h-auto m-auto py-5 px-5 rounded-[10px] bg-white shadow-xl">
+          <div className="h-[270px] pt-12 w-[330px] sm:w-[400px] md:w-[500px] m-auto flex flex-col gap-3 py-5 px-5 rounded-[10px] bg-white shadow-xl">
             <h1 className="text-[20px] md:text-[25px] lg:text-[30px] font-700 text-black"> Server Side Rendering </h1>
             <p className="text-[12px]  md:text-[14px] lg:text-[16px] lg:h-[150px] text-zinc-700 py-3 "> Server-Side Rendering is a technique where the server generates the HTML content on each request, and the browser receives a fully rendered HTML page  </p>
             <Link href="/server-side" target="_blank">
