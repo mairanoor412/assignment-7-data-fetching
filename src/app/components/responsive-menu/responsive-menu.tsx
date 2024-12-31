@@ -13,7 +13,7 @@ const ResponsiveMenu = ({ open }: any) => {
                
                 className="absolute top-10 left-0 w-full h-screen z-20"
             >
-                <div className=" bg-yellow-500  opacity-80 py-10 m-6 rounded-3xl md:hidden">
+                <div className=" bg-yellow-500  opacity-80 py-10 m-5 rounded-3xl md:hidden">
                 <ul className="flex flex-col justify-center items-center gap-10 ">
                     <li className="text-[16px] font-[500] text-primary">
                         <Link href="/" target="_blank"> Home </Link>
