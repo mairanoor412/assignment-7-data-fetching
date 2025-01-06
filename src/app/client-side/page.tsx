@@ -63,7 +63,7 @@ const ClientSide = () => {
                             <div className="flex items-center justify-between">
                                     <p className="text-[20px] font-[500] text-green-700"> ${products.price} </p>
 
-                                    <p className="hover:font-[600] pr-5"> Detail </p>
+                                    <p className="hover:font-[600] pr-5 text-black"> Detail </p>
 
                                 </div>
                             </Link>

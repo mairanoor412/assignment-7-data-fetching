@@ -23,7 +23,7 @@ const ParsedResponse:Products = await response.json()
 console.log(ParsedResponse);
 
     return(
-        <div className="mb-10 flex flex-col px-3 sm:px-7  lg:px-52 xl:px-72 gap-3 lg:gap-5">
+        <div className="bg-white mb-10 flex flex-col px-3 sm:px-7  lg:px-52 xl:px-72 gap-3 lg:gap-5">
            <Image src={ParsedResponse.image} alt={ParsedResponse.title} width={250} height={250} className="w-[250px] h-[250px] m-auto mt-12 mb-6" />
            <p className="text-[30px] font-[600]">{ParsedResponse.title} </p>
           <p className="text-[16px]">{ParsedResponse.description}</p>
